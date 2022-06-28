@@ -1,6 +1,9 @@
 let gamePiece: CreateRectangle;
 let gameWalls: any;
+//make the snake move by itself rather than holding w to move it
+//and with the keys will change the direction
 
+//make the walls be able to collide 
 function startGame() {
   gameSettings.start();
   gameSettings.canvas.focus();
